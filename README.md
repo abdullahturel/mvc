@@ -1,2 +1,2 @@
-# mvc
+# MVC
 Basit MVC Yapısı
