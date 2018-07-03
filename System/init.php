@@ -9,7 +9,7 @@ foreach (glob(__DIR__ . '/Core/*.php') as $coreFile){
 	require_once strtolower($coreFile);
 }
 
-// Application Class Dosyalarını Çağrıldığında Yükler
+// Application Class Dosyalarını Yükler
 foreach (glob(PATH .'/'. strtolower(CLASSES_PATH) .'/*.php') as $className){
 	require_once strtolower($className);
 }
